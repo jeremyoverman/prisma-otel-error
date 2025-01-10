@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "strictNullChecks": true,
+        "composite": true,
+        "lib": [
+            "esnext"
+        ],
+        "module": "nodenext",
+        "target": "esnext",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization": true,
+        "isolatedModules": true,
+        "moduleResolution": "node16",
+        "preserveWatchOutput": true,
+        "skipLibCheck": true,
+        "useDefineForClassFields": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictFunctionTypes": true,
+        "outDir": "./dist",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "moduleDetection": "force",
+        "resolvePackageJsonExports": true,
+        "resolvePackageJsonImports": true,
+        "declaration": true,
+        "preserveConstEnums": true,
+        "incremental": true,
+        "strictBindCallApply": true,
+        "strictBuiltinIteratorReturn": true,
+        "alwaysStrict": true,
+        "useUnknownInCatchVariables": true
+    },
+    "references": [],
+    "include": [
+        "src",
+        "instrumentation.ts"
+    ]
+}
